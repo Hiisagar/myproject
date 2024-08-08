@@ -1,0 +1,57 @@
+
+        *{
+            font-family: "Mochiy Pop One", sans-serif;
+            font-weight: 400;
+        }
+        .btn {
+            width: 282px;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            padding: 5px;
+        }
+        .btn button {
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+            padding: 8px;
+            background: transparent;
+            color:#ffffff;
+            border-radius: 25px;
+            font-size: 12pt;
+            font-weight: bold;
+            border: none;
+            box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1);
+
+        }
+        .result input {
+            color: #ffffff;
+            width: 267px;
+            margin:10px;
+            padding: 10px;
+            font-size: 14pt;
+            background: transparent;
+        }
+        body{
+            width: 99%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg,#0a0a0a,#3a4452);
+        }
+        .container{
+            border: 1px solid hsl(220, 3%, 45%);
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+        }
+        h1{
+            color: white;
+            position: absolute;
+            top: 5px;
+            left: 42%;
+            margin: 10px;
+        }
+ 
