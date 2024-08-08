@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Dicee</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Hachi+Maru+Pop&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <h1>Enter The Name & Play the Game.</h1>
+  </nav>
+  <div class="enter-name">
+    <input type="text" id="player1" placeholder="Player 1 Enter Your Name Here..">
+    <input type="text" id="player2" placeholder="Player 2 Enter Your Name Here..">
+  </div>
+  <div class="sbt-name">
+    <button onclick="showName()">Click</button>
+  </div>
+  <main class="game">
+    <div class="container">
+      <h3>Play the Game</h3>
+
+      <div class="dice">
+        <p id="playerOne"></p>
+        <img class="img1" src="images/dice6.png" />
+      </div>
+
+      <div class="dice">
+        <p id="playerTwo"></p>
+        <img class="img2" src="images/dice6.png" />
+      </div>
+    </div>
+    <div class="btn">
+      <button onclick="playGame()">Play Game</button>
+    </div>
+  </main>
+  <script src="dice.js"></script>
+
+</body>
+
+</html>
