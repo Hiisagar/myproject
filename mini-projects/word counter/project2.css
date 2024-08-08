@@ -1,0 +1,27 @@
+
+h1{
+    text-align: center;
+    background-color: #006780;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+textarea{
+    width: 99.70%;
+    border-color: #006780;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    text-align: center;
+    background-color: #006780;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    color:white;
+    margin: 0%;
+    
+    
+}
+
